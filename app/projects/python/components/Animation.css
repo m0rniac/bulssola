@@ -1,0 +1,18 @@
+.the-logo {
+    position: relative;
+    animation: snakeAnimation 4s linear infinite;
+}
+
+@keyframes snakeAnimation {
+    0% {
+        transform: rotate(-30deg);
+    }
+
+    50% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
