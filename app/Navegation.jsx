@@ -47,7 +47,9 @@ export const NavBar = () => {
                                         My Posts
                                     </a>
                                     <div className="dropdown-menu">
-                                        { /* [ EMPTY, for now ] */ }
+                                        <Link className="dropdown-item text-wrap" href="/posts/energia-a-partir-del-plastico" onClick={handleLinkClick}>
+                                            Generación de energía eléctrica a partir del plastico
+                                        </Link>
                                     </div>
                                 </li>
                                 <li className="nav-item dropdown">
@@ -61,8 +63,11 @@ export const NavBar = () => {
                                         <Link className="dropdown-item" href="/projects/python" onClick={handleLinkClick}>
                                             Development in Python
                                         </Link>
-                                        <Link className="dropdown-item" href="/projects/frameworks" onClick={handleLinkClick}>
+                                        <Link className="dropdown-item" href="/projects/frameworks#react-section" onClick={handleLinkClick}>
                                             Development in ReactJS
+                                        </Link>
+                                        <Link className="dropdown-item" href="/projects/frameworks#native-section" onClick={handleLinkClick}>
+                                            Development in React Native
                                         </Link>
                                     </div>
                                 </li>

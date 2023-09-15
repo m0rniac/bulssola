@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Data from "../../data.json";
+import "../../../public/css/bootstrap.css";
 
 import Introduction from './components/Introduction';
 import Download from './components/Download';
@@ -25,7 +26,7 @@ export default function LinuxTorogOS() {
                 <Introduction />
                 <Download
                     Community='https://github.com/m0rniac/torogos-linux/issues'
-                    LatestVersion='https://drive.google.com/drive/folders/1pC_CYIVL_HMuRiVJpbn_fAiQai3dm4-c?usp=drive_link'
+                    LatestVersion='/projects/torogos/error'
                 />
                 <Why />
                 <HowTo />

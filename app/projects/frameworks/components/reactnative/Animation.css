@@ -1,0 +1,36 @@
+.logo-two {
+    animation: heartbeatAnimation 1.5s infinite;
+    transform-origin: center;
+}
+
+@keyframes heartbeatAnimation {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    10%,
+    90% {
+        transform: scale(1.04);
+    }
+
+    20%,
+    80% {
+        transform: scale(0.98);
+    }
+
+    30%,
+    70% {
+        transform: scale(1.03);
+    }
+
+    40%,
+    60% {
+        transform: scale(0.97);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+}

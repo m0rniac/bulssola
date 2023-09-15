@@ -15,12 +15,24 @@ export default function Home() {
       <Cards />
 
       <NewPost
+        Title="New project in React Native: MAPS-INFO Android App"
+        Text=" Android oriented APP that allows you to find and explore information about countries by tapping on the map"
+        Date="15/09/2023"
+        PostLink="/projects/frameworks#native-section"
+      />
+
+      <PrevPost
+        Title="New project in React Native: Web-App (with Swipe To Refresh)"
+        Text="Displays a web page within a WebView component. It includes 'pull-to-refresh' functionality and handles errors for internet connection issues"
+        Date="14/09/2023"
+        PostLink="/projects/frameworks#native-section"
+      />
+      <PrevPost
         Title="New project in Python: TorogOS Drivers/CODECS Installer (CLI)"
         Text="A simple but useful real-time package selection and automation tool developed for TorogOS"
         Date="25/08/2023"
         PostLink="/projects/python"
       />
-
       <PrevPost
         Title="New project in ReactJS: In-Memory"
         Text="A project that hosts a series of memory agility games specially designed for individuals facing Alzheimer disease"

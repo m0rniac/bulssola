@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-export function NewCard({
+export function NewCardJS({
     Tittle = "Project Title",
     SubTitle = "Technologies used at project",
     ImageRoute = "",
