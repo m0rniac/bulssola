@@ -135,7 +135,7 @@ export default function Why() {
                                     <ul>
                                         <li key={'li0001'}>
                                             <p>
-                                                La <a href="http://github.com/m0rniac/torogoslinux" target="_blank" rel="noopener noreferrer">comunidad en GitHub</a> está abierta para los desarrolladores, sumado al equipo de TorogOS, hacen que el proyecto actualmente se mantenga en desarrollo constante.
+                                                La <a href="http://github.com/m0rniac/torogoslinux" target="_blank" rel="noopener noreferrer">comunidad en GitHub</a> está abierta a los desarrolladores que busquen aportar soporte, sin embargo, TorogOS, al ser una distribución atendida oficialmente por una sola persona la convierte en un sistema operativo robusto pero tambien en una distribución con ciclo de lanzamiento no regular.
                                             </p>
                                         </li>
                                     </ul>

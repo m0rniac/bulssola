@@ -60,6 +60,9 @@ export const NavBar = () => {
                                         <Link className="dropdown-item" href="/projects/torogos" onClick={handleLinkClick}>
                                             Torog OS
                                         </Link>
+                                        <Link className="dropdown-item" href="/projects/alondra" onClick={handleLinkClick}>
+                                            Alondra Messenger
+                                        </Link>
                                         <Link className="dropdown-item" href="/projects/python" onClick={handleLinkClick}>
                                             Development in Python
                                         </Link>

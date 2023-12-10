@@ -26,7 +26,7 @@ export default function LinuxTorogOS() {
                 <Introduction />
                 <Download
                     Community='https://github.com/m0rniac/torogos-linux/issues'
-                    LatestVersion='/projects/torogos/error'
+                    LatestVersion='https://drive.google.com/drive/folders/1_ZkcwXtFr8W7AV1h6k433ggHHa_xGyW0?usp=sharing'
                 />
                 <Why />
                 <HowTo />

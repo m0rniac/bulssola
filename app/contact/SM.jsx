@@ -27,13 +27,6 @@ const SocialMedia = () => {
                     </Link>
                 </div>
                 <div className="col-6 col-md-3">
-                    <Link href="https://github.com/m0rniac" passHref legacyBehavior>
-                        <a target="_blank" className="text-white">
-                            <FaGithub size={42} /> GitHub
-                        </a>
-                    </Link>
-                </div>
-                <div className="d-flex justify-content-center mt-5">
                     <Link href="https://linkedin.com/in/christcastr/" passHref legacyBehavior>
                         <a target="_blank" className="text-primary">
                             <FaLinkedin size={52} /> Linkedin

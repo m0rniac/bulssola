@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="row">
                     <hr />
                     <div className="container-fluid d-flex justify-content-center w-75">
-                        <Image src={Data.logo} height={60} width={60} alt="Logo | @stianook" />
+                        <Image src={Data.logo} height={80} width={80} alt="Logo | @stianook" />
                     </div>
 
                     <h5 className="text-center mt-2">Christian Castro</h5>
