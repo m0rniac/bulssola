@@ -3,6 +3,7 @@ import React from 'react';
 import Data from "../../data.json";
 import "../../../public/css/bootstrap.css";
 
+import Warning from './components/Warning';
 import Introduction from './components/Introduction';
 import Download from './components/Download';
 import Why from './components/Why';
@@ -23,6 +24,7 @@ export default function LinuxTorogOS() {
     return (
         <React.Fragment>
             <div className='torogos-section'>
+                <Warning />
                 <Introduction />
                 <Download
                     Community='https://github.com/m0rniac/torogos-linux/issues'

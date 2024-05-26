@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 export default function HowTo() {
     return (
         <React.Fragment>
             <div className='container-fluid mt-5'>
                 <h3 className='text-center'>
-                    ¿Cómo se instala TorogOS?
+                    How to install TorogOS?
                 </h3>
             </div>
 
@@ -13,31 +13,31 @@ export default function HowTo() {
                 <ul>
                     <li key={'ex01'}>
                         <p>
-                            Descargar la <a href="#top">última versión</a> del sistema operativo.
+                            Download the <a href="#top">latest version</a> of the operating system.
                         </p>
                     </li>
                     <li key={'ex02'}>
                         <p>
-                            Montar el .ISO en una memoria USB usando <a href="https://rufus.ie/en/" target="_blank" rel="noopener noreferrer">Rufus (en Windows)</a>, o <a href="https://etcher.balena.io/" target="_blank" rel="noopener noreferrer">Balena Etcher (en Linux)</a>
+                            Mount the .ISO on a USB drive using <a href="https://rufus.ie/en/" target="_blank" rel="noopener noreferrer">Rufus (on Windows)</a>, or <a href="https://etcher.balena.io/" target="_blank" rel="noopener noreferrer">Balena Etcher (on Linux)</a>.
                         </p>
                     </li>
                     <li key={'ex03'}>
                         <p>
-                            Reiniciar la máquina, y en medio del proceso de re-encendido oprimir la tecla de gestión de arranque de tu computadora, seleccionar la memoria USB.
+                            Restart the machine, and during the reboot process, press your computer's boot management key, then select the USB drive.
                         </p>
                     </li>
                     <li key={'ex04'}>
                         <p>
-                            Automaticamente se ejecutará la versión live del sistema. Presiona la combinación de teclas <code>$MOD + D</code> e introducir el comando <code>minstall-launcher</code> en la barra de búsqueda, con esto se ejecutará el instalador del sistema.
+                            The live version of the system will automatically run. Press the key combination <code>$MOD + D</code> and enter the command <code>minstall-launcher</code> in the search bar, which will launch the system installer.
                         </p>
                     </li>
                     <li key={'ex05'}>
                         <p>
-                            Rellenar todos los campos y esperar a que la instalación finalice.
+                            Fill in all the fields and wait for the installation to complete.
                         </p>
                     </li>
                 </ul>
             </div>
         </React.Fragment>
-    )
+    );
 }

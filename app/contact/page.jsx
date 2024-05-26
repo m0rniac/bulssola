@@ -3,10 +3,10 @@ import React from 'react';
 import Data from "../data.json";
 import "../../public/css/bootstrap.css";
 
-import Alert from './Alert';
-import Section from './Section';
-import SM from "./SM";
-import Cards from './Cards';
+import Alert from './components/Alert';
+import Section from './components/Section';
+import SM from './components/SM';
+import Cards from './components/Cards';
 
 
 export const metadata = {

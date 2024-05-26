@@ -76,10 +76,15 @@ export const NavBar = () => {
                                 </li>
 
                                 <li className="nav-item">
+                                    <Link className="nav-link" href="/study" onClick={handleLinkClick}>
+                                        My Studies
+                                    </Link>
+                                </li>
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" href="/buymeacoffee" onClick={handleLinkClick}>
                                         Buy me a ☕
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>

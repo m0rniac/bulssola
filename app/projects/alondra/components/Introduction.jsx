@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 
 export default function Introduction() {
     return (
@@ -12,7 +12,7 @@ export default function Introduction() {
                 <div className='d-flex justify-content-center'>
                     <div className='mt-4 justify-content-center w-75'>
                         <h2 className='text-center'>Alondra Messenger</h2>
-                        <p className='text-center'>Red de mensajería Peer-2-Peer anónima, privada, y segura que funciona a través de TOR</p>
+                        <p className='text-center'>Anonymous, private, and secure Peer-2-Peer messaging network that operates through TOR</p>
                     </div>
                 </div>
                 <div className='d-flex justify-content-center'>
@@ -22,5 +22,5 @@ export default function Introduction() {
                 </div>
             </div>
         </React.Fragment>
-    )
+    );
 }

@@ -6,9 +6,9 @@ export default function Faq() {
             <div className='mt-5'>
                 <div className='container-fluid d-flex justify-content-center'>
                     <div>
-                        <h3 className='text-center'>Preguntas frecuentes (FAQ)</h3>
+                        <h3 className='text-center'>Frequently Asked Questions (FAQ)</h3>
                         <p className='text-center'>
-                            Lista de preguntas más comúnes acerca del proyecto:
+                            List of common questions about the project:
                         </p>
                     </div>
                 </div>
@@ -19,48 +19,48 @@ export default function Faq() {
                     <div>
                         <ol>
                             <li>
-                                <h5>¿Qué es Alondra y cómo se diferencia de las aplicaciones de mensajería convencionales?</h5>
+                                <h5>What is Alondra and how is it different from conventional messaging apps?</h5>
                                 <ul>
                                     <li>
                                         <p style={{ textAlign: 'justify' }}>
-                                            Alondra es una plataforma de comunicación diseñada para ofrecer un alto nivel de anonimato y privacidad. Se diferencia de las aplicaciones de mensajería convencionales en que utiliza la red TOR para enrutar las comunicaciones de manera que los usuarios puedan enviar mensajes de texto, archivos multimedia, audios, y realizar llamadas de forma anónima y segura entre sus contactos.
+                                            Alondra is a communication platform designed to offer a high level of anonymity and privacy. It differs from conventional messaging apps in that it uses the TOR network to route communications so that users can send text messages, multimedia files, audios, and make calls anonymously and securely between their contacts.
                                         </p>
                                     </li>
                                     <li>
                                         <p style={{ textAlign: 'justify' }}>
-                                            A diferencia de aplicaciones populares como Facebook Messenger, WhatsApp y Telegram, Alondra no almacena tus archivos en servidores en línea. En cambio, todos los archivos que compartes a través de Alondra permanecen solo en los dispositivos que participan en la conversación, sin guardar una copia en la nube o en servidores externos.
+                                            Unlike popular apps like Facebook Messenger, WhatsApp, and Telegram, Alondra does not store your files on online servers. Instead, all the files you share through Alondra remain only on the devices participating in the conversation, without saving a copy in the cloud or on external servers.
                                         </p>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <h5>¿Puedo usar esta aplicación en cualquier tipo de dispositivo móvil?</h5>
+                                <h5>Can I use this app on any type of mobile device?</h5>
                                 <p style={{ textAlign: 'justify' }}>
-                                    Esta aplicación está disponible para su uso en la mayoría de dispositivos móviles modernos que ejecuten el sistema operativo Android. Esto significa que cualquier persona que tenga un teléfono o tablet Android puede utilizarla sin problemas. Si estás utilizando otro tipo de dispositivo o sistema operativo, lamentablemente, esta aplicación no estará disponible para ti en este momento.
+                                    This app is available for use on most modern mobile devices running the Android operating system. This means that anyone with an Android phone or tablet can use it without any issues. If you are using another type of device or operating system, unfortunately, this app will not be available for you at this time.
                                 </p>
                             </li>
                             <li>
-                                <h5>¿Es una aplicación segura?</h5>
+                                <h5>Is it a secure app?</h5>
                                 <p style={{ textAlign: 'justify' }}>
-                                    Esta aplicación es altamente segura para todos los usuarios, ya que incorpora múltiples mecanismos de seguridad diseñados para prevenir la filtración de información, los cuales están detallados en la documentación. Además, todos los archivos .APK disponibles para descarga en este sitio han sido firmados digitalmente con la clave JKS del desarrollador. Se recomienda enfáticamente que no instales ninguna versión de la aplicación que no haya sido descargada directamente desde este sitio oficial
+                                    This app is highly secure for all users, as it incorporates multiple security mechanisms designed to prevent information leaks, which are detailed in the documentation. Additionally, all .APK files available for download on this site have been digitally signed with the developer's JKS key. It is strongly recommended that you do not install any version of the app that has not been downloaded directly from this official site.
                                 </p>
                             </li>
                             <li>
-                                <h5>¿Cómo funciona la red TOR en Alondra y por qué se utiliza para garantizar el anonimato?</h5>
+                                <h5>How does the TOR network work in Alondra and why is it used to ensure anonymity?</h5>
                                 <p style={{ textAlign: 'justify' }}>
-                                    La red TOR, abreviatura de "The Onion Router", funciona mediante la retransmisión de datos a través de una serie de servidores enrutados de manera aleatoria. Esto oculta la ubicación del remitente y el destinatario, lo que garantiza un alto grado de anonimato y privacidad.
+                                    The TOR network, short for "The Onion Router", works by relaying data through a series of randomly routed servers. This hides the location of the sender and the recipient, ensuring a high degree of anonymity and privacy.
                                 </p>
                             </li>
                             <li>
-                                <h5>¿Es necesario configurar la aplicación para funcionar correctamente?</h5>
+                                <h5>Is it necessary to configure the app to work properly?</h5>
                                 <p style={{ textAlign: 'justify' }}>
-                                    No, la aplicación se encarga de la configuración de la red TOR automáticamente, por lo que los usuarios no necesitan realizar ninguna configuración especial. Sin embargo, puedes reforzar la privacidad añadiendo Bridges de TOR, modificando elementos de la configuración por defecto y establecer una privacidad customizada, esto es opcional y se recomienda hacer solo si posees el conocimiento necesario.
+                                    No, the app automatically handles the configuration of the TOR network, so users do not need to perform any special configuration. However, you can enhance privacy by adding TOR Bridges, modifying default settings, and establishing customized privacy settings. This is optional and recommended only if you have the necessary knowledge.
                                 </p>
                             </li>
                             <li>
-                                <h5>¿Por qué existe Alondra Messenger?</h5>
+                                <h5>Why does Alondra Messenger exist?</h5>
                                 <p style={{ textAlign: 'justify' }}>
-                                    Inspirado en la filosofía de <a href="https://tails.net/index.es.html" target="_blank" rel="noopener noreferrer">Tails Linux</a>. Este proyecto se enfoca en proporcionar una herramienta de comunicación segura y confidencial para personas que han sobrevivido a situaciones de violencia doméstica, periodistas que necesitan proteger sus fuentes, y cualquier persona que esté en entornos donde la privacidad y la seguridad son especialmente importantes.
+                                    Inspired by the philosophy of <a href="https://tails.net/index.en.html" target="_blank" rel="noopener noreferrer">Tails Linux</a>. This project focuses on providing a secure and confidential communication tool for people who have survived domestic violence situations, journalists who need to protect their sources, and anyone in environments where privacy and security are especially important.
                                 </p>
                             </li>
                         </ol>

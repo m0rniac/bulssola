@@ -10,7 +10,7 @@ import Forms from './components/Forms';
 export default function Page() {
     return (
         <React.Fragment>
-            <Status Status={'Artículo terminado'} />
+            <Status Status={'Artículo terminado y escrito en español.'} />
             <Introduction />
 
             <div className='container-fluid mt-5'>

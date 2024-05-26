@@ -14,9 +14,9 @@ export default function Introduction() {
                     Torog OS
                 </h1>
                 <p className='text-center fs-5'>
-                    Una opción para la maximización de recursos y la eliminación de bloatware.
+                    An option for resource maximization and bloatware elimination.
                 </p>
             </div>
         </React.Fragment>
-    )
+    );
 }
