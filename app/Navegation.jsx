@@ -52,6 +52,7 @@ export const NavBar = () => {
                                         </Link>
                                     </div>
                                 </li>
+
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                         My projects
@@ -71,6 +72,17 @@ export const NavBar = () => {
                                         </Link>
                                         <Link className="dropdown-item" href="/projects/frameworks#native-section" onClick={handleLinkClick}>
                                             Development in React Native
+                                        </Link>
+                                    </div>
+                                </li>
+
+                                <li className="nav-item dropdown">
+                                    <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                        Portfolio
+                                    </a>
+                                    <div className="dropdown-menu">
+                                        <Link className="dropdown-item" href="/portfolio/design" onClick={handleLinkClick}>
+                                            Design
                                         </Link>
                                     </div>
                                 </li>
