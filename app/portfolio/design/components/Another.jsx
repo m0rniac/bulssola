@@ -7,7 +7,7 @@ export default function Another() {
             <div className='container-fluid mt-5'>
                 <div className='container-fluid'>
                     <h4 className='text-start'>
-                        Otras tareas que puedo realizar:
+                        Other tasks I can perform:
                     </h4>
                 </div>
 
@@ -21,7 +21,7 @@ export default function Another() {
                         </div>
                         <div className='container-fluid'>
                             <p>
-                                Reemplazar el color original de uno o varios objetos por otro completamente diferente de una forma realista, útil para corrección y varianza de contenido.
+                                Replace the original color of one or more objects with a completely different one in a realistic manner, useful for correction and content variance.
                             </p>
                         </div>
                     </div>
@@ -34,7 +34,6 @@ export default function Another() {
                                     width={433}
                                     height={433}
                                     className='img-fluid'
-                                    alt='Image 01'
                                 />
                             </div>
                             <div className='col-md-6 d-flex justify-content-center order-md-1 mt-3 mt-md-0'>
@@ -43,24 +42,23 @@ export default function Another() {
                                     width={433}
                                     height={433}
                                     className='img-fluid'
-                                    alt='Image 02'
                                 />
                             </div>
                         </div>
                     </div>
                 </div>
 
-                {/* B) Generative IA */}
+                {/* B) Generative AI */}
                 <div className='container-fluid mt-5'>
                     <div className='container-fluid'>
                         <div className='container-fluid'>
                             <h5>
-                                2. Generative IA
+                                2. Generative AI
                             </h5>
                         </div>
                         <div className='container-fluid'>
                             <p>
-                                Creación de diversos escenarios a partir de una única foto de una forma realista, útil para la generación de contenido.
+                                Creation of various scenarios from a single photo in a realistic manner, useful for content generation.
                             </p>
                         </div>
                     </div>
@@ -73,7 +71,6 @@ export default function Another() {
                                     width={433}
                                     height={433}
                                     className='img-fluid'
-                                    alt='Image 01'
                                 />
                             </div>
                             <div className='col-md-6 d-flex justify-content-center order-md-1 mt-3 mt-md-0'>
@@ -82,7 +79,6 @@ export default function Another() {
                                     width={533}
                                     height={533}
                                     className='img-fluid'
-                                    alt='Image 02'
                                 />
                             </div>
                         </div>
