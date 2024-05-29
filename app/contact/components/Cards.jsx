@@ -27,7 +27,7 @@ export default function Cards() {
                     </div>
                 </div>
 
-                {<div className='row mt-5'>
+                <div className='row mt-5'>
                     <div className='col-md-6'>
                         <div className='d-flex justify-content-center'>
                             <Image src={'/images/images/image28.svg'} width={250} height={250} alt='Traductor | @bulssola' />
@@ -39,7 +39,7 @@ export default function Cards() {
                             My passion lies in customer satisfaction through the creation of accurate and culturally appropriate translations. I understand the critical importance of translation in effective communication and the competitiveness of companies in the global market. Therefore, I have the ability to analyze user needs, design efficient solutions, and deliver clear and precise translations.
                         </p>
                     </div>
-                </div>}
+                </div>
                 <hr />
             </div>
         </React.Fragment>
