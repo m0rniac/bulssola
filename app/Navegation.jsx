@@ -84,6 +84,9 @@ export const NavBar = () => {
                                         <Link className="dropdown-item" href="/portfolio/design" onClick={handleLinkClick}>
                                             Design
                                         </Link>
+                                        <Link className="dropdown-item" href="/portfolio/copywriting-translator" onClick={handleLinkClick}>
+                                            Copywriting & Translator
+                                        </Link>
                                     </div>
                                 </li>
 

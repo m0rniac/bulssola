@@ -7,7 +7,7 @@ export default function Introduction() {
             <div className='container-fluid mt-5 p-3'>
                 <div className='container-fluid mt-4'>
                     <div className='d-flex justify-content-center'>
-                        <Image src={'/images/portfolio/design/init_01.svg'} width={250} height={250} className='img-fluid' />
+                        <Image src={'/images/portfolio/design/init_01.svg'} width={200} height={200} className='img-fluid' />
                     </div>
                 </div>
 

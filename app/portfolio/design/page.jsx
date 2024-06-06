@@ -186,7 +186,51 @@ const logo_entrepreneur = [
     },
 ]
 
-/* 3) Logos (Watermark) */
+/* 3) Characters (Sprites) */
+const sprites = [
+    {
+        src: "/images/portfolio/design/sprites/img_01.jpg",
+        width: 512,
+        height: 512,
+        tags: [
+            { value: "GameMaker User", title: "GameMaker User" },
+        ],
+        alt: "Loading...",
+        caption: "'We need character sprites for a 2d game'."
+    },
+    {
+        src: "/images/portfolio/design/sprites/img_02.jpg",
+        width: 512,
+        height: 512,
+        tags: [
+            { value: "GameMaker User", title: "GameMaker User" },
+        ],
+        alt: "Loading...",
+        caption: "'We need character sprites for a 2d game'."
+    },
+    {
+        src: "/images/portfolio/design/sprites/img_03.jpg",
+        width: 512,
+        height: 512,
+        tags: [
+            { value: "GameMaker User", title: "GameMaker User" },
+        ],
+        alt: "Loading...",
+        caption: "'We need character sprites for a 2d game'."
+    },
+    {
+        src: "/images/portfolio/design/sprites/img_04.jpg",
+        width: 512,
+        height: 512,
+        tags: [
+            { value: "GameMaker User", title: "GameMaker User" },
+        ],
+        alt: "Loading...",
+        caption: "'We need character sprites for a 2d game'."
+    },
+]
+
+/* 4) Logos (Watermark) */
 const logo_watermark = [
     {
         src: "/images/portfolio/design/watermark/img_01.png",
@@ -210,7 +254,7 @@ const logo_watermark = [
     },
 ]
 
-/* 3) Illustrations */
+/* 5) Illustrations */
 const illustrations = [
     {
         src: "/images/portfolio/design/ilustrations/img_01.png",
@@ -246,6 +290,10 @@ const illustrations = [
             <Gallery
                 str_categorie={"Entrepreneur Logos:"}
                 images_obj={logo_entrepreneur}
+            />
+            <Gallery
+                str_categorie={"Sprites:"}
+                images_obj={sprites}
             />
             <Gallery
                 str_categorie={"Watermark Logos:"}
